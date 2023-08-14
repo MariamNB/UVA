@@ -23,6 +23,7 @@ ll fastPow (ll base, ll power, ll inf){
     if(power &1) ret = (ret * base) % inf;
     return ret % inf;
 }
+
 int main() {
     fast;
     ll a, b, c;
